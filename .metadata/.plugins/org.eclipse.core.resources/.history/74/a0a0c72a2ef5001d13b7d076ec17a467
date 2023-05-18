@@ -14,11 +14,12 @@ public class Aluno {
 		this.telefones.add(new Telefone(ddd, numero));
 	}
 
-	public Aluno(CPF cpf, String nome, Email email) {
+	public Aluno(CPF cpf, String nome, Email email, List<Telefone> telefones) {
 		super();
 		this.cpf = cpf;
 		this.nome = nome;
 		this.email = email;
+		this.telefones = telefones;
 	}
 
 	public CPF getCpf() {

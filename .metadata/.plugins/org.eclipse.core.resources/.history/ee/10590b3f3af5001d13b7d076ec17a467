@@ -1,0 +1,32 @@
+package br.com.alura.escola.aplicacao.aplicacao.aluno.matricular;
+
+public class MatricularAlunoDto {
+
+	private String nomeAluno;
+	private String cpfAluno;
+	private String emailAluno;
+
+	public String getNomeAluno() {
+		return nomeAluno;
+	}
+
+	public void setNomeAluno(String nomeAluno) {
+		this.nomeAluno = nomeAluno;
+	}
+
+	public String getCpfAluno() {
+		return cpfAluno;
+	}
+
+	public void setCpfAluno(String cpfAluno) {
+		this.cpfAluno = cpfAluno;
+	}
+
+	public String getEmailAluno() {
+		return emailAluno;
+	}
+
+	public void setEmailAluno(String emailAluno) {
+		this.emailAluno = emailAluno;
+	}
+}
